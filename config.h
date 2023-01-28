@@ -4,7 +4,9 @@
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Anonymice Nerd Font Complete Mono:size=10"
+        "Liberation Mono:pixelsize=12:antialias=true:autohint=true",
+        "Noto Color Emoji:pixelsize=11",
+	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true"
 };
 
 
